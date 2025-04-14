@@ -10,6 +10,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<!-- icons link  -->
+<link
+href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+rel="stylesheet"
+/>
 </head>
 <body class="bg-black w-full h-full font-[Urbanist]">
     <header>
@@ -51,22 +56,48 @@
             <img src="Assets/linkedin.svg" alt="" class="w-[50px] h-[50px]">
         </div>
     </main>
-    <section class="about">
+    <section class="about relative">
         <div class="bg-gray-300/5 w-[80%] h-[250px] mt-20 mb-20 justify-self-center rounded-lg shadow-xl/30 border border-gray-300/5 flex items-center flex-col justify-center">
             <span class="relative text-lime-500 bg-gray-300/5 pt-1 pb-1 pr-3 pl-3 rounded-full border border-gray-300/5">Meet Bolt</span>
             <p class="text-center text-gray-300 text-3xl pt-6 pr-20 pl-20 pb-6">We get it. You need standout design to thrive in the tech world, but building on in-house team can be expensive and time-consuming. That's where Atomic steps in.</p>
         </div>
     </section>
-    <section class="services">
+    <section class="services mb-8">
         <span class="relative text-lime-500 bg-gray-300/5 pt-1 pb-1 pr-3 pl-3 rounded-full border border-gray-300/5 flex items-center justify-self-center uppercase">What You'll Receive</span>
         <p class="text-center text-gray-300 text-3xl pt-6 pr-20 pl-20 pb-6">We solve the challenges that come <br> with creative process.</p>
-        <div class="service-area grid grid-cols-3 gap-4 p-20">
-             <div class="w-[350px] h-[350px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg"></div>
-             <div class="w-[350px] h-[350px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg"></div>
-             <div class="w-[350px] h-[350px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg"></div>
-             <div class="w-[350px] h-[350px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg col-span-2"></div>
-             <div class="w-[350px] h-[350px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg"></div>
+        <div class="service-area grid grid-cols-3 gap-4 pt-6 pb-4 place-self-center">
+             <div class="w-[320px] h-[350px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg p-8">
+                <i class="ri-lightbulb-flash-fill bg-lime-800/30 p-2 rounded-full text-lime-500 border border-lime-800/30"></i><br>
+                <i class="ri-puzzle-fill text-[120px] flex items-center justify-self-center text-gray-600/30 text-shadow-lg/30"></i><br>
+                <h3 class="text-gray-300 text-2xl mt-[-30px]">Affordable Solution</h3><br>
+                <p class="text-gray-500 mt-[-20px]">Receive top-quality design services without the high price tag.</p>
+             </div>
+             <div class="w-[320px] h-[350px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg p-8">
+                <i class="ri-palette-fill bg-lime-800/30 p-2 rounded-full text-lime-500 border border-lime-800/30"></i><br>
+                <i class="ri-pencil-ruler-2-fill text-[120px] flex items-center justify-self-center text-gray-600/30 text-shadow-lg/30"></i><br>
+                <h3 class="text-gray-300 text-2xl mt-[-30px]">Custom Design Solution</h3><br>
+                <p class="text-gray-500 mt-[-20px]">Our expertise ensures your vision becomes a reality.</p>
+             </div>
+             <div class="w-[320px] h-[350px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg p-8">
+                <i class="ri-focus-mode bg-lime-800/30 p-2 rounded-full text-lime-500 border border-lime-800/30"></i><br>
+                <i class="ri-line-chart-fill text-[120px] flex items-center justify-self-center text-gray-600/30 text-shadow-lg/30"></i><br>
+                <h3 class="text-gray-300 text-2xl mt-[-30px]">Scalable as You Grow</h3><br>
+                <p class="text-gray-500 mt-[-20px]">We're prepared to adopt to your changing needs.</p>
+             </div>
         </div>
-    </section>
+        <div class="relative grid grid-cols-2 gap-4 place-self-center">
+            <div class="w-[490px] h-[250px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg p-8">
+                <i class="ri-swap-2-fill bg-lime-800/30 p-2 rounded-full text-lime-500 border border-lime-800/30"></i><br>
+                <h3 class="text-gray-300 text-2xl mt-16">Integrated Workflow</h3>
+                <p class="text-gray-500 mt-4">effortlessly connect all your existing applications.</p>
+                <img src="Assets/workflow.png" alt="workflow images" class="w-[100px] bg-gray-300/5 rounded-lg shadow-2xl relative right-[20px] left-[300px] bottom-[150px]">
+            </div>
+             <div class="w-[490px] h-[250px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg p-8">
+                <i class="ri-user-community-fill bg-lime-800/30 p-2 rounded-full text-lime-500 border border-lime-800/30"></i><br>
+                <h3 class="text-gray-300 text-2xl mt-16">Real-Time Collaboration</h3>
+                <p class="text-gray-500 mt-4">Work together effortlessly while staying connected to all your existing apps.</p>
+             </div>
+        </div>
+    </section> 
 </body>
 </html>
