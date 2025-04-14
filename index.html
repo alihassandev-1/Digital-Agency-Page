@@ -11,9 +11,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body class="bg-black w-full h-full">
+<body class="bg-black w-full h-full font-[Urbanist]">
     <header>
-        <div class="flex items-center justify-center w-full bg-gray-900">
+        <div class="flex items-center justify-center w-full bg-gray-300/5">
             <div class="logo mr-[220px]">
                 <a href="#" class="flex items-center justify-center">
                     <div class="w-[50px] h-[50px] rounded-full border-[5px] border-lime-500 absolute mr-8"></div>
@@ -37,19 +37,32 @@
         <div class="w-[950px] h-[950px] rounded-full border-lime-500 border-[8px] flex flex-col items-center justify-center justify-self-center mt-20 border-b-[0px] border-r-[0px] border-l-[0px] bg-black">
             <h1 class="text-gray-300 text-[70px] text-center font-semibold mt-[-400px] leading-[90px]">Design work, <br> the efficient way</h1>
             <p class="text-gray-500 text-center mt-4">Innovative design solutions for technology firms and emerging businesses weary of <br> the typical aesthetic methodology. Arriving Shortly.</p>
-            <div class="newletter bg-gray-900 mt-8 rounded-lg pr-2 border border-gray-800">
+            <div class="newletter bg-gray-300/5 mt-8 rounded-lg pr-2 border border-gray-300/5">
                 <input type="email" name="email" id="email" placeholder="Enter Your Email" class="text-gray-300 bg-transparent focus:outline-none p-5">
                 <button class="bg-lime-500 text-black pb-3 pt-3 pr-6 pl-6 rounded-[5px] font-normal">Submit Now</button>
             </div>
         </div>
-        <h3 class="text-gray-400 flex items-center justify-center mt-[-350px] text-3xl">Already chosen by the leaders</h3>
-        <div class="flex items-center justify-between gap-[30px] mt-20 pl-20 pr-20 pt-4 pb-4 bg-gray-500 w-full">
-            <img src="Assets/Framer.svg" alt="" class="w-[60px] h-[60px]">
-            <img src="Assets/Webflow.svg" alt="" class="w-[80px] h-[80px] ">
+        <h2 class="text-gray-400 flex items-center justify-center mt-[-350px] text-3xl">Already chosen by the leaders</h2>
+        <div class="flex items-center justify-between gap-[30px] mt-20 pl-20 pr-20 bg-lime-500 -skew-y-2 w-full">
+            <img src="Assets/Framer.svg" alt="" class="w-[60px] h-[60px] stroke-red-500 ">
+            <img src="Assets/Webflow.svg" alt="" class="w-[80px] h-[80px] text-shadow-2xl/30">
             <img src="Assets/vercel.svg" alt="" class="w-[80px] h-[80px] ">
             <img src="Assets/Shopify.svg" alt="" class="w-[80px] h-[80px] ">
-            <img src="Assets/linkedin.svg" alt="" class="w-[50px] h-[50px] ">
+            <img src="Assets/linkedin.svg" alt="" class="w-[50px] h-[50px]">
         </div>
     </main>
+    <section class="about">
+        <div class="bg-gray-300/5 w-[80%] h-[250px] mt-20 mb-20 justify-self-center rounded-lg shadow-xl/30 border border-gray-300/5 flex items-center flex-col justify-center">
+            <span class="relative text-lime-500 bg-gray-300/5 pt-1 pb-1 pr-3 pl-3 rounded-full border border-gray-300/5">Meet Bolt</span>
+            <p class="text-center text-gray-300 text-3xl pt-6 pr-20 pl-20 pb-6">We get it. You need standout design to thrive in the tech world, but building on in-house team can be expensive and time-consuming. That's where Atomic steps in.</p>
+        </div>
+    </section>
+    <section class="services">
+        <span class="relative text-lime-500 bg-gray-300/5 pt-1 pb-1 pr-3 pl-3 rounded-full border border-gray-300/5 flex items-center justify-self-center uppercase">What You'll Receive</span>
+        <p class="text-center text-gray-300 text-3xl pt-6 pr-20 pl-20 pb-6">We solve the challenges that come <br> with creative process.</p>
+        <div class="service-area">
+             
+        </div>
+    </section>
 </body>
 </html>
