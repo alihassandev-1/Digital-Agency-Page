@@ -1,278 +1,628 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Transform the way you acquire design services at DAW">
-    <meta name="keywords" content="Web Solutions, Web Development, App Development, Tech Solutions">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Transform the way you acquire design services at DAW"
+    />
+    <meta
+      name="keywords"
+      content="Web Solutions, Web Development, App Development, Tech Solutions"
+    />
     <title>Digital Agency Landing Page</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<!-- icons link  -->
-<link
-href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-rel="stylesheet"
-/>
-</head>
-<body class="bg-black w-full h-full font-[Urbanist]">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icons link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+<style>
+
+    .answer{
+        display: none;
+    }
+
+    .answer.display{
+        display: block;
+    }
+</style>
+
+  </head>
+  <body class="bg-black w-full h-full font-[Urbanist]">
     <header>
-        <div class="flex items-center justify-center w-full bg-gray-300/5">
-            <div class="logo mr-[220px]">
-                <a href="#" class="flex items-center justify-center">
-                    <div class="w-[50px] h-[50px] rounded-full border-[5px] border-lime-500 absolute mr-8"></div>
-                    <div class="w-[50px] h-[50px] rounded-full border-[5px] border-lime-500 "></div>
-                </a>
-            </div>
-            <nav class="bg-gray-300/5 w-[650px] h-[48px] rounded-full text-gray-500 font-normal text-xl mt-4 mb-4 shadow-2xl">
-                <ul>
-                    <li class="flex items-center justify-between pr-6 pl-6 pt-2">
-                        <a href="#">Features</a>
-                        <a href="#">About</a>
-                        <a href="#">Services</a>
-                        <a href="#">FAQs</a>
-                    </li>
-                </ul>
-            </nav>
-            <button class="flex items-center justify-center ml-[230px] text-gray-300 pr-6 pl-6 pb-2 pt-1 border text-xl rounded-lg border-lime-500">Login</button>
+      <div class="flex items-center justify-center w-full bg-gray-300/5">
+        <div class="logo mr-[220px]">
+          <a href="#" class="flex items-center justify-center">
+            <div
+              class="w-[50px] h-[50px] rounded-full border-[5px] border-lime-500 absolute mr-8"
+            ></div>
+            <div
+              class="w-[50px] h-[50px] rounded-full border-[5px] border-lime-500"
+            ></div>
+          </a>
         </div>
+        <nav
+          class="bg-gray-300/5 w-[650px] h-[48px] rounded-full text-gray-500 font-normal text-xl mt-4 mb-4 shadow-2xl"
+        >
+          <ul>
+            <li class="flex items-center justify-between pr-6 pl-6 pt-2">
+              <a href="#">Features</a>
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">FAQs</a>
+            </li>
+          </ul>
+        </nav>
+        <button
+          class="flex items-center justify-center ml-[230px] text-gray-300 pr-6 pl-6 pb-2 pt-1 border text-xl rounded-lg border-lime-500"
+        >
+          Login
+        </button>
+      </div>
     </header>
     <main class="w-full">
-        <div class="w-[950px] h-[950px] rounded-full border-lime-500 border-[8px] flex flex-col items-center justify-center justify-self-center mt-20 border-b-[0px] border-r-[0px] border-l-[0px] bg-black">
-            <h1 class="text-gray-300 text-[70px] text-center font-semibold mt-[-400px] leading-[90px]">Design work, <br> the efficient way</h1>
-            <p class="text-gray-500 text-center mt-4">Innovative design solutions for technology firms and emerging businesses weary of <br> the typical aesthetic methodology. Arriving Shortly.</p>
-            <div class="newletter bg-gray-300/5 mt-8 rounded-lg pr-2 border border-gray-300/5">
-                <input type="email" name="email" id="email" placeholder="Enter Your Email" class="text-gray-300 bg-transparent focus:outline-none p-5">
-                <button class="bg-lime-500 text-black pb-3 pt-3 pr-6 pl-6 rounded-[5px] font-normal">Submit Now</button>
-            </div>
+      <div
+        class="w-[950px] h-[950px] rounded-full border-lime-500 border-[8px] flex flex-col items-center justify-center justify-self-center mt-20 border-b-[0px] border-r-[0px] border-l-[0px] bg-black"
+      >
+        <h1
+          class="text-gray-300 text-[70px] text-center font-semibold mt-[-400px] leading-[90px]"
+        >
+          Design work, <br />
+          the efficient way
+        </h1>
+        <p class="text-gray-500 text-center mt-4">
+          Innovative design solutions for technology firms and emerging
+          businesses weary of <br />
+          the typical aesthetic methodology. Arriving Shortly.
+        </p>
+        <div
+          class="newletter bg-gray-300/5 mt-8 rounded-lg pr-2 border border-gray-300/5"
+        >
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Your Email"
+            class="text-gray-300 bg-transparent focus:outline-none p-5"
+          />
+          <button
+            class="bg-lime-500 text-black pb-3 pt-3 pr-6 pl-6 rounded-[5px] font-normal"
+          >
+            Submit Now
+          </button>
         </div>
-        <h2 class="text-gray-400 flex items-center justify-center mt-[-350px] text-3xl">Already chosen by the leaders</h2>
-        <div class="flex items-center justify-between gap-[30px] mt-20 pl-20 pr-20 bg-lime-500 -skew-y-2 w-full">
-            <img src="Assets/Framer.svg" alt="" class="w-[60px] h-[60px] stroke-red-500 ">
-            <img src="Assets/Webflow.svg" alt="" class="w-[80px] h-[80px] text-shadow-2xl/30">
-            <img src="Assets/vercel.svg" alt="" class="w-[80px] h-[80px] ">
-            <img src="Assets/Shopify.svg" alt="" class="w-[80px] h-[80px] ">
-            <img src="Assets/linkedin.svg" alt="" class="w-[50px] h-[50px]">
-        </div>
+      </div>
+      <h2
+        class="text-gray-400 flex items-center justify-center mt-[-350px] text-3xl"
+      >
+        Already chosen by the leaders
+      </h2>
+      <div
+        class="flex items-center justify-between gap-[30px] mt-20 pl-20 pr-20 bg-lime-500 -skew-y-2 w-full"
+      >
+        <img
+          src="Assets/Framer.svg"
+          alt=""
+          class="w-[60px] h-[60px] stroke-red-500"
+        />
+        <img
+          src="Assets/Webflow.svg"
+          alt=""
+          class="w-[80px] h-[80px] text-shadow-2xl/30"
+        />
+        <img src="Assets/vercel.svg" alt="" class="w-[80px] h-[80px]" />
+        <img src="Assets/Shopify.svg" alt="" class="w-[80px] h-[80px]" />
+        <img src="Assets/linkedin.svg" alt="" class="w-[50px] h-[50px]" />
+      </div>
     </main>
     <section class="about relative">
-        <div class="bg-gray-300/5 w-[80%] h-[250px] mt-20 mb-20 justify-self-center rounded-lg shadow-xl/30 border border-gray-300/5 flex items-center flex-col justify-center">
-            <span class="relative text-lime-500 bg-gray-300/5 pt-1 pb-1 pr-3 pl-3 rounded-full border border-gray-300/5">Meet Bolt</span>
-            <p class="text-center text-gray-300 text-3xl pt-6 pr-20 pl-20 pb-6">We get it. You need standout design to thrive in the tech world, but building on in-house team can be expensive and time-consuming. That's where Atomic steps in.</p>
-        </div>
+      <div
+        class="bg-gray-300/5 w-[80%] h-[250px] mt-20 mb-20 justify-self-center rounded-lg shadow-xl/30 border border-gray-300/5 flex items-center flex-col justify-center"
+      >
+        <span
+          class="relative text-lime-500 bg-gray-300/5 pt-1 pb-1 pr-3 pl-3 rounded-full border border-gray-300/5"
+          >Meet Bolt</span
+        >
+        <p class="text-center text-gray-300 text-3xl pt-6 pr-20 pl-20 pb-6">
+          We get it. You need standout design to thrive in the tech world, but
+          building on in-house team can be expensive and time-consuming. That's
+          where Atomic steps in.
+        </p>
+      </div>
     </section>
     <section class="services mb-8">
-        <span class="relative text-lime-500 bg-gray-300/5 pt-1 pb-1 pr-3 pl-3 rounded-full border border-gray-300/5 flex items-center justify-self-center uppercase">What You'll Receive</span>
-        <p class="text-center text-gray-300 text-3xl pt-6 pr-20 pl-20 pb-6">We solve the challenges that come <br> with creative process.</p>
-        <div class="service-area grid grid-cols-3 gap-4 pt-6 pb-4 place-self-center">
-             <div class="w-[320px] h-[350px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg p-8">
-                <i class="ri-lightbulb-flash-fill bg-lime-800/30 p-2 rounded-full text-lime-500 border border-lime-800/30"></i><br>
-                <i class="ri-puzzle-fill text-[120px] flex items-center justify-self-center text-gray-600/30 text-shadow-lg/30"></i><br>
-                <h3 class="text-gray-300 text-2xl mt-[-30px]">Affordable Solution</h3><br>
-                <p class="text-gray-500 mt-[-20px]">Receive top-quality design services without the high price tag.</p>
-             </div>
-             <div class="w-[320px] h-[350px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg p-8">
-                <i class="ri-palette-fill bg-lime-800/30 p-2 rounded-full text-lime-500 border border-lime-800/30"></i><br>
-                <i class="ri-pencil-ruler-2-fill text-[120px] flex items-center justify-self-center text-gray-600/30 text-shadow-lg/30"></i><br>
-                <h3 class="text-gray-300 text-2xl mt-[-30px]">Custom Design Solution</h3><br>
-                <p class="text-gray-500 mt-[-20px]">Our expertise ensures your vision becomes a reality.</p>
-             </div>
-             <div class="w-[320px] h-[350px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg p-8">
-                <i class="ri-focus-mode bg-lime-800/30 p-2 rounded-full text-lime-500 border border-lime-800/30"></i><br>
-                <i class="ri-line-chart-fill text-[120px] flex items-center justify-self-center text-gray-600/30 text-shadow-lg/30"></i><br>
-                <h3 class="text-gray-300 text-2xl mt-[-30px]">Scalable as You Grow</h3><br>
-                <p class="text-gray-500 mt-[-20px]">We're prepared to adopt to your changing needs.</p>
-             </div>
+      <span
+        class="relative text-lime-500 bg-gray-300/5 pt-1 pb-1 pr-3 pl-3 rounded-full border border-gray-300/5 flex items-center justify-self-center uppercase"
+        >What You'll Receive</span
+      >
+      <p class="text-center text-gray-300 text-3xl pt-6 pr-20 pl-20 pb-6">
+        We solve the challenges that come <br />
+        with creative process.
+      </p>
+      <div
+        class="service-area grid grid-cols-3 gap-4 pt-6 pb-4 place-self-center"
+      >
+        <div
+          class="w-[320px] h-[350px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg p-8"
+        >
+          <i
+            class="ri-lightbulb-flash-fill bg-lime-800/30 p-2 rounded-full text-lime-500 border border-lime-800/30"
+          ></i
+          ><br />
+          <i
+            class="ri-puzzle-fill text-[120px] flex items-center justify-self-center text-gray-600/30 text-shadow-lg/30"
+          ></i
+          ><br />
+          <h3 class="text-gray-300 text-2xl mt-[-30px]">Affordable Solution</h3>
+          <br />
+          <p class="text-gray-500 mt-[-20px]">
+            Receive top-quality design services without the high price tag.
+          </p>
         </div>
-        <div class="relative grid grid-cols-2 gap-4 place-self-center">
-            <div class="w-[490px] h-[250px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg p-8">
-                <i class="ri-swap-2-fill bg-lime-800/30 p-2 rounded-full text-lime-500 border border-lime-800/30"></i><br>
-                <h3 class="text-gray-300 text-2xl mt-16">Integrated Workflow</h3>
-                <p class="text-gray-500 mt-4">effortlessly connect all your <br> existing applications.</p>
-                <img src="Assets/workflow.png" alt="workflow images" class="w-[120px] rounded-lg relative right-[20px] left-[280px] bottom-[170px]">
-            </div>
-             <div class="w-[490px] h-[250px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg p-8">
-                <i class="ri-user-community-fill bg-lime-800/30 p-2 rounded-full text-lime-500 border border-lime-800/30"></i><br>
-                <h3 class="text-gray-300 text-2xl mt-16">Real-Time Collaboration</h3>
-                <p class="text-gray-500 mt-4">Work together effortlessly while staying <br> connected to all your existing apps.</p>
-                <i class="ri-shake-hands-fill text-[120px] text-gray-600/30 rounded-lg relative right-[20px] left-[280px] bottom-[200px]"></i>
-             </div>
+        <div
+          class="w-[320px] h-[350px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg p-8"
+        >
+          <i
+            class="ri-palette-fill bg-lime-800/30 p-2 rounded-full text-lime-500 border border-lime-800/30"
+          ></i
+          ><br />
+          <i
+            class="ri-pencil-ruler-2-fill text-[120px] flex items-center justify-self-center text-gray-600/30 text-shadow-lg/30"
+          ></i
+          ><br />
+          <h3 class="text-gray-300 text-2xl mt-[-30px]">
+            Custom Design Solution
+          </h3>
+          <br />
+          <p class="text-gray-500 mt-[-20px]">
+            Our expertise ensures your vision becomes a reality.
+          </p>
         </div>
+        <div
+          class="w-[320px] h-[350px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg p-8"
+        >
+          <i
+            class="ri-focus-mode bg-lime-800/30 p-2 rounded-full text-lime-500 border border-lime-800/30"
+          ></i
+          ><br />
+          <i
+            class="ri-line-chart-fill text-[120px] flex items-center justify-self-center text-gray-600/30 text-shadow-lg/30"
+          ></i
+          ><br />
+          <h3 class="text-gray-300 text-2xl mt-[-30px]">
+            Scalable as You Grow
+          </h3>
+          <br />
+          <p class="text-gray-500 mt-[-20px]">
+            We're prepared to adopt to your changing needs.
+          </p>
+        </div>
+      </div>
+      <div class="relative grid grid-cols-2 gap-4 place-self-center">
+        <div
+          class="w-[490px] h-[250px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg p-8"
+        >
+          <i
+            class="ri-swap-2-fill bg-lime-800/30 p-2 rounded-full text-lime-500 border border-lime-800/30"
+          ></i
+          ><br />
+          <h3 class="text-gray-300 text-2xl mt-16">Integrated Workflow</h3>
+          <p class="text-gray-500 mt-4">
+            effortlessly connect all your <br />
+            existing applications.
+          </p>
+          <img
+            src="Assets/workflow.png"
+            alt="workflow images"
+            class="w-[120px] rounded-lg relative right-[20px] left-[280px] bottom-[170px]"
+          />
+        </div>
+        <div
+          class="w-[490px] h-[250px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg p-8"
+        >
+          <i
+            class="ri-user-community-fill bg-lime-800/30 p-2 rounded-full text-lime-500 border border-lime-800/30"
+          ></i
+          ><br />
+          <h3 class="text-gray-300 text-2xl mt-16">Real-Time Collaboration</h3>
+          <p class="text-gray-500 mt-4">
+            Work together effortlessly while staying <br />
+            connected to all your existing apps.
+          </p>
+          <i
+            class="ri-shake-hands-fill text-[120px] text-gray-600/30 rounded-lg relative right-[20px] left-[280px] bottom-[200px]"
+          ></i>
+        </div>
+      </div>
     </section>
-    
-    <section class="work-process ">
-        <span class="relative text-lime-500 bg-gray-300/5 pt-1 pb-1 pr-3 pl-3 rounded-full border border-gray-300/5 flex items-center justify-self-center uppercase mt-20">Our Work Process</span>
-        <p class="text-center text-gray-300 text-3xl pt-6 pr-20 pl-20 pb-6">Top-notch designs, <br> delivered at your doorstep.</p>
-        <div class="service-area grid grid-cols-3 gap-4 pt-6 pb-4 place-self-center">
-            <div class="w-[340px] h-[250px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg p-8">
-               <i class="ri-creative-commons-sa-fill bg-lime-800/30 p-3 rounded-full text-3xl text-lime-500 border border-lime-800/30"></i><br>
-               <h3 class="text-gray-300 text-xl mt-16">Share Your Vision</h3><br>
-               <p class="text-gray-500 mt-[-20px]">Select a plan and tell us about your design project — we're ready to listen and bring it to life.</p>
-            </div>
-            <div class="w-[340px] h-[250px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg p-8">
-               <i class="ri-group-2-fill bg-lime-800/30 p-3 rounded-full text-3xl text-lime-500 border border-lime-800/30"></i><br>
-               <h3 class="text-gray-300 text-xl mt-16">Experience the transformation</h3><br>
-               <p class="text-gray-500 mt-[-20px]">We specialize in turning your ideas into exceptional, tailor-made designs.</p>
-            </div>
-            <div class="w-[340px] h-[250px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg p-8">
-               <i class="ri-hand-heart-fill bg-lime-800/30 p-3 rounded-full text-3xl text-lime-500 border border-lime-800/30"></i><br>
-               <h3 class="text-gray-300 text-xl mt-16">Receive continues support</h3><br>
-               <p class="text-gray-500 mt-[-20px]">We deliver innovative, high-quality design solutions that bring your vision to life.</p>
-            </div>
-       </div>
+
+    <section class="work-process">
+      <span
+        class="relative text-lime-500 bg-gray-300/5 pt-1 pb-1 pr-3 pl-3 rounded-full border border-gray-300/5 flex items-center justify-self-center uppercase mt-20"
+        >Our Work Process</span
+      >
+      <p class="text-center text-gray-300 text-3xl pt-6 pr-20 pl-20 pb-6">
+        Top-notch designs, <br />
+        delivered at your doorstep.
+      </p>
+      <div
+        class="service-area grid grid-cols-3 gap-4 pt-6 pb-4 place-self-center"
+      >
+        <div
+          class="w-[340px] h-[250px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg p-8"
+        >
+          <i
+            class="ri-creative-commons-sa-fill bg-lime-800/30 p-3 rounded-full text-3xl text-lime-500 border border-lime-800/30"
+          ></i
+          ><br />
+          <h3 class="text-gray-300 text-xl mt-16">Share Your Vision</h3>
+          <br />
+          <p class="text-gray-500 mt-[-20px]">
+            Select a plan and tell us about your design project — we're ready to
+            listen and bring it to life.
+          </p>
+        </div>
+        <div
+          class="w-[340px] h-[250px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg p-8"
+        >
+          <i
+            class="ri-group-2-fill bg-lime-800/30 p-3 rounded-full text-3xl text-lime-500 border border-lime-800/30"
+          ></i
+          ><br />
+          <h3 class="text-gray-300 text-xl mt-16">
+            Experience the transformation
+          </h3>
+          <br />
+          <p class="text-gray-500 mt-[-20px]">
+            We specialize in turning your ideas into exceptional, tailor-made
+            designs.
+          </p>
+        </div>
+        <div
+          class="w-[340px] h-[250px] bg-gray-300/5 border border-gray-300/5 shadow-xl/30 rounded-lg p-8"
+        >
+          <i
+            class="ri-hand-heart-fill bg-lime-800/30 p-3 rounded-full text-3xl text-lime-500 border border-lime-800/30"
+          ></i
+          ><br />
+          <h3 class="text-gray-300 text-xl mt-16">Receive continues support</h3>
+          <br />
+          <p class="text-gray-500 mt-[-20px]">
+            We deliver innovative, high-quality design solutions that bring your
+            vision to life.
+          </p>
+        </div>
+      </div>
     </section>
     <section class="testimonials">
-        <span class="relative text-lime-500 bg-gray-300/5 pt-1 pb-1 pr-3 pl-3 rounded-full border border-gray-300/5 flex items-center justify-self-center uppercase mt-20">testimonials</span>
-        <p class="text-center text-gray-300 text-3xl pt-6 pr-20 pl-20 pb-6">What our client say about us</p>
-        <div class="grid grid-cols-3 gap-6 place-self-center mb-20 mt-12">
-            <div class="w-[360px] h-[280px] rounded-lg bg-gray-300/5 border border-gray-300/5 shadow-xl/30 p-8">
-                <div class="content">
-                    <div class="img-content flex ">
-                        <img src="https://writestylesonline.com/wp-content/uploads/2019/01/What-To-Wear-For-Your-Professional-Profile-Picture-or-Headshot.jpg" alt="" class="w-[50px] h-[50px] rounded-full object-cover object-center">
-                        <div class="flex flex-col items-start text-gray-300 relative pl-3">
-                            <h4 class="text-xl font-semibold text-gray-300">Sara Blakely</h4>
-                            <span class="text-gray-500 text-xs italic font-medium">Founder of SpanX</span>
-                        </div>
-                    </div>
-                    <p class="text-lg leading-[24px] text-gray-500 mt-6 mb-4">We at Kee Service were very impressed with the all aspects of our new website. We would highly recommended Ali Hassan to anyone looking to build a new website.</p>
-                    <span class="text-gray-400">10 April 2025</span>
-                </div>
+      <span
+        class="relative text-lime-500 bg-gray-300/5 pt-1 pb-1 pr-3 pl-3 rounded-full border border-gray-300/5 flex items-center justify-self-center uppercase mt-20"
+        >testimonials</span
+      >
+      <p class="text-center text-gray-300 text-3xl pt-6 pr-20 pl-20 pb-6">
+        What our client say about us
+      </p>
+      <div class="grid grid-cols-3 gap-6 place-self-center mb-20 mt-12">
+        <div
+          class="w-[360px] h-[280px] rounded-lg bg-gray-300/5 border border-gray-300/5 shadow-xl/30 p-8"
+        >
+          <div class="content">
+            <div class="img-content flex">
+              <img
+                src="https://writestylesonline.com/wp-content/uploads/2019/01/What-To-Wear-For-Your-Professional-Profile-Picture-or-Headshot.jpg"
+                alt=""
+                class="w-[50px] h-[50px] rounded-full object-cover object-center"
+              />
+              <div
+                class="flex flex-col items-start text-gray-300 relative pl-3"
+              >
+                <h4 class="text-xl font-semibold text-gray-300">
+                  Sara Blakely
+                </h4>
+                <span class="text-gray-500 text-xs italic font-medium"
+                  >Founder of SpanX</span
+                >
+              </div>
             </div>
-            <div class="w-[360px] h-[250px] rounded-lg bg-gray-300/5 border border-gray-300/5 shadow-xl/30 p-8">
-                <div class="content">
-                    <div class="img-content flex ">
-                        <img src="https://blog-pixomatic.s3.appcnt.com/image/22/01/26/61f166e1377d4/_orig/pixomatic_1572877223091.png" alt="" class="w-[50px] h-[50px] rounded-full object-cover object-center">
-                        <div class="flex flex-col items-start text-gray-300 relative pl-3">
-                            <h4 class="text-xl font-semibold text-gray-300">John Smith</h4>
-                            <span class="text-gray-500 text-xs italic font-medium">Sales Director at CRM</span>
-                        </div>
-                    </div>
-                    <p class="text-lg leading-[24px] text-gray-500 mt-6 mb-4">Quick response to changes /questions/ideas. Someone always answers right away.</p>
-                    <span class="text-gray-400">05 March 2025</span>
-                </div>
-            </div>
-            <div class="w-[360px] h-[280px] rounded-lg bg-gray-300/5 border border-gray-300/5 shadow-xl/30 p-8">
-                <div class="content">
-                    <div class="img-content flex ">
-                        <img src="https://www.ovcphotography.com/images/headshots/chs-7-lg.jpg" alt="" class="w-[50px] h-[50px] rounded-full object-cover object-center">
-                        <div class="flex flex-col items-start text-gray-300 relative pl-3">
-                            <h4 class="text-xl font-semibold text-gray-300">Sheba Najmi</h4>
-                            <span class="text-gray-500 text-xs italic font-medium">Founder of Tech</span>
-                        </div>
-                    </div>
-                    <p class="text-lg leading-[24px] text-gray-500 mt-6 mb-4">This was the first time I developed a web site so I couldn’t have asked for a better or easier group to work with. A fantastic experience all around!</p>
-                    <span class="text-gray-400">20 March 2025</span>
-                </div>
-            </div>
-            <div class="w-[360px] h-[280px] rounded-lg bg-gray-300/5 border border-gray-300/5 shadow-xl/30 p-8">
-                <div class="content">
-                    <div class="img-content flex ">
-                        <img src="https://monteluke.com.au/wp-content/gallery/linkedin-profile-pictures/2.jpg" alt="" class="w-[50px] h-[50px] rounded-full object-cover object-center">
-                        <div class="flex flex-col items-start text-gray-300 relative pl-3">
-                            <h4 class="text-xl font-semibold text-gray-300">John D.</h4>
-                            <span class="text-gray-500 text-xs italic font-medium">Sales Director at CRM</span>
-                        </div>
-                    </div>
-                    <p class="text-lg leading-[24px] text-gray-500 mt-6 mb-4">It has been a pleasure working with Ali. It is nice from the customers stand point to be able to get in touch with you and you guys always made yourselves available.</p>
-                    <span class="text-gray-400">02 April 2025</span>
-                </div>
-            </div>
-            <div class="w-[360px] h-[310px] rounded-lg bg-gray-300/5 border border-gray-300/5 shadow-xl/30 p-8 mt-[-30px]">
-                <div class="content">
-                    <div class="img-content flex ">
-                        <img src="https://images.squarespace-cdn.com/content/v1/592738c58419c2fe84fbdb81/1511808327962-46KUA3HC9CO7JUMEZ8L3/DBS_Jonathan_web_4853BW.jpg?format=1000w" alt="" class="w-[50px] h-[50px] rounded-full object-cover object-center">
-                        <div class="flex flex-col items-start text-gray-300 relative pl-3">
-                            <h4 class="text-xl font-semibold text-gray-300">Thomas Edison</h4>
-                            <span class="text-gray-500 text-xs italic font-medium">Founder of Charles Schwab</span>
-                        </div>
-                    </div>
-                    <p class="text-lg leading-[24px] text-gray-500 mt-6 mb-4">My new site created by Ali Hassan just launched. They’ve done a great job of creating exactly what I wanted. Easy to work with and very responsive.</p>
-                    <span class="text-gray-400">16 April 2025</span>
-                </div>
-            </div>
-            <div class="w-[360px] h-[280px] rounded-lg bg-gray-300/5 border border-gray-300/5 shadow-xl/30 p-8">
-                <div class="content">
-                    <div class="img-content flex ">
-                        <img src="https://images.squarespace-cdn.com/content/v1/592738c58419c2fe84fbdb81/1543317538385-UGY1YGY2HSGSUZORD7OU/DBS_George_Sampford.jpg?format=1000w" alt="" class="w-[50px] h-[50px] rounded-full object-cover object-center">
-                        <div class="flex flex-col items-start text-gray-300 relative pl-3">
-                            <h4 class="text-xl font-semibold text-gray-300">John Johnson</h4>
-                            <span class="text-gray-500 text-xs italic font-medium">Founder of Johnson Products</span>
-                        </div>
-                    </div>
-                    <p class="text-lg leading-[24px] text-gray-500 mt-6 mb-4">Everyone with Ali Hassan has been wonderful to work and our website is a million times better than it was. I would recommend Ali Hassan to anyone!</p>
-                    <span class="text-gray-400">04 January 2025</span>
-                </div>
-            </div>
+            <p class="text-lg leading-[24px] text-gray-500 mt-6 mb-4">
+              We at Kee Service were very impressed with the all aspects of our
+              new website. We would highly recommended Ali Hassan to anyone
+              looking to build a new website.
+            </p>
+            <span class="text-gray-400">10 April 2025</span>
+          </div>
         </div>
+        <div
+          class="w-[360px] h-[250px] rounded-lg bg-gray-300/5 border border-gray-300/5 shadow-xl/30 p-8"
+        >
+          <div class="content">
+            <div class="img-content flex">
+              <img
+                src="https://blog-pixomatic.s3.appcnt.com/image/22/01/26/61f166e1377d4/_orig/pixomatic_1572877223091.png"
+                alt=""
+                class="w-[50px] h-[50px] rounded-full object-cover object-center"
+              />
+              <div
+                class="flex flex-col items-start text-gray-300 relative pl-3"
+              >
+                <h4 class="text-xl font-semibold text-gray-300">John Smith</h4>
+                <span class="text-gray-500 text-xs italic font-medium"
+                  >Sales Director at CRM</span
+                >
+              </div>
+            </div>
+            <p class="text-lg leading-[24px] text-gray-500 mt-6 mb-4">
+              Quick response to changes /questions/ideas. Someone always answers
+              right away.
+            </p>
+            <span class="text-gray-400">05 March 2025</span>
+          </div>
+        </div>
+        <div
+          class="w-[360px] h-[280px] rounded-lg bg-gray-300/5 border border-gray-300/5 shadow-xl/30 p-8"
+        >
+          <div class="content">
+            <div class="img-content flex">
+              <img
+                src="https://www.ovcphotography.com/images/headshots/chs-7-lg.jpg"
+                alt=""
+                class="w-[50px] h-[50px] rounded-full object-cover object-center"
+              />
+              <div
+                class="flex flex-col items-start text-gray-300 relative pl-3"
+              >
+                <h4 class="text-xl font-semibold text-gray-300">Sheba Najmi</h4>
+                <span class="text-gray-500 text-xs italic font-medium"
+                  >Founder of Tech</span
+                >
+              </div>
+            </div>
+            <p class="text-lg leading-[24px] text-gray-500 mt-6 mb-4">
+              This was the first time I developed a web site so I couldn’t have
+              asked for a better or easier group to work with. A fantastic
+              experience all around!
+            </p>
+            <span class="text-gray-400">20 March 2025</span>
+          </div>
+        </div>
+        <div
+          class="w-[360px] h-[280px] rounded-lg bg-gray-300/5 border border-gray-300/5 shadow-xl/30 p-8"
+        >
+          <div class="content">
+            <div class="img-content flex">
+              <img
+                src="https://monteluke.com.au/wp-content/gallery/linkedin-profile-pictures/2.jpg"
+                alt=""
+                class="w-[50px] h-[50px] rounded-full object-cover object-center"
+              />
+              <div
+                class="flex flex-col items-start text-gray-300 relative pl-3"
+              >
+                <h4 class="text-xl font-semibold text-gray-300">John D.</h4>
+                <span class="text-gray-500 text-xs italic font-medium"
+                  >Sales Director at CRM</span
+                >
+              </div>
+            </div>
+            <p class="text-lg leading-[24px] text-gray-500 mt-6 mb-4">
+              It has been a pleasure working with Ali. It is nice from the
+              customers stand point to be able to get in touch with you and you
+              guys always made yourselves available.
+            </p>
+            <span class="text-gray-400">02 April 2025</span>
+          </div>
+        </div>
+        <div
+          class="w-[360px] h-[310px] rounded-lg bg-gray-300/5 border border-gray-300/5 shadow-xl/30 p-8 mt-[-30px]"
+        >
+          <div class="content">
+            <div class="img-content flex">
+              <img
+                src="https://images.squarespace-cdn.com/content/v1/592738c58419c2fe84fbdb81/1511808327962-46KUA3HC9CO7JUMEZ8L3/DBS_Jonathan_web_4853BW.jpg?format=1000w"
+                alt=""
+                class="w-[50px] h-[50px] rounded-full object-cover object-center"
+              />
+              <div
+                class="flex flex-col items-start text-gray-300 relative pl-3"
+              >
+                <h4 class="text-xl font-semibold text-gray-300">
+                  Thomas Edison
+                </h4>
+                <span class="text-gray-500 text-xs italic font-medium"
+                  >Founder of Charles Schwab</span
+                >
+              </div>
+            </div>
+            <p class="text-lg leading-[24px] text-gray-500 mt-6 mb-4">
+              My new site created by Ali Hassan just launched. They’ve done a
+              great job of creating exactly what I wanted. Easy to work with and
+              very responsive.
+            </p>
+            <span class="text-gray-400">16 April 2025</span>
+          </div>
+        </div>
+        <div
+          class="w-[360px] h-[280px] rounded-lg bg-gray-300/5 border border-gray-300/5 shadow-xl/30 p-8"
+        >
+          <div class="content">
+            <div class="img-content flex">
+              <img
+                src="https://images.squarespace-cdn.com/content/v1/592738c58419c2fe84fbdb81/1543317538385-UGY1YGY2HSGSUZORD7OU/DBS_George_Sampford.jpg?format=1000w"
+                alt=""
+                class="w-[50px] h-[50px] rounded-full object-cover object-center"
+              />
+              <div
+                class="flex flex-col items-start text-gray-300 relative pl-3"
+              >
+                <h4 class="text-xl font-semibold text-gray-300">
+                  John Johnson
+                </h4>
+                <span class="text-gray-500 text-xs italic font-medium"
+                  >Founder of Johnson Products</span
+                >
+              </div>
+            </div>
+            <p class="text-lg leading-[24px] text-gray-500 mt-6 mb-4">
+              Everyone with Ali Hassan has been wonderful to work and our
+              website is a million times better than it was. I would recommend
+              Ali Hassan to anyone!
+            </p>
+            <span class="text-gray-400">04 January 2025</span>
+          </div>
+        </div>
+      </div>
     </section>
     <section>
-        <span class="relative text-lime-500 bg-gray-300/5 pt-1 pb-1 pr-3 pl-3 rounded-full border border-gray-300/5 flex items-center justify-self-center uppercase mt-20">FAQs</span>
-        <p class="text-center text-gray-300 text-3xl pt-6 pr-20 pl-20 pb-6">We've got the answers</p>
-        <div class="faqs grid grid-cols-2 gap-4 p-20 place-self-center">
-            <div class="question flex flex-col p-8 bg-gray-300/5 rounded-lg">
-                <div class="quest flex justify-between gap-[100px]">
-                    <h3 class="text-gray-400 text-xl">How long does it take to create a website?</h3>
-                    <i onclick="myFunction(this)" class="ri-add-fill text-gray-400 text-2xl cursor-pointer"></i>
-                </div>
-                <div id="answer" class="answer mt-8 text-gray-600 flex">
-                    <p>Before a web design company can start creating a website, the client should provide all necessary content, such as text, photos, and videos. The client should also provide all necessary information about the brand and target audience so that the web design company can create a website that meets the client’s specific needs.</p>
-                </div>
-            </div>
-            <div class="question flex flex-col p-8 bg-gray-300/5 rounded-lg">
-                <div class="quest flex justify-between">
-                    <h3 class="text-gray-400 text-xl">How long does it take to create a website?</h3>
-                    <i onclick="myFunction(this)" class="ri-add-fill text-gray-400 text-2xl cursor-pointer"></i>
-                </div>
-                <div class="answer mt-8 text-gray-600 hidden">
-                    <p>Before a web design company can start creating a website, the client should provide all necessary content, such as text, photos, and videos. The client should also provide all necessary information about the brand and target audience so that the web design company can create a website that meets the client’s specific needs.</p>
-                </div>
-            </div>
-            <div class="question flex flex-col p-8 bg-gray-300/5 rounded-lg">
-                <div class="quest flex justify-between">
-                    <h3 class="text-gray-400 text-xl">How long does it take to create a website?</h3>
-                    <i onclick="myFunction(this)" class="ri-add-fill text-gray-400 text-2xl cursor-pointer"></i>
-                </div>
-                <div class="answer mt-8 text-gray-600 hidden">
-                    <p>Before a web design company can start creating a website, the client should provide all necessary content, such as text, photos, and videos. The client should also provide all necessary information about the brand and target audience so that the web design company can create a website that meets the client’s specific needs.</p>
-                </div>
-            </div>
-            <div class="question flex flex-col p-8 bg-gray-300/5 rounded-lg">
-                <div class="quest flex justify-between">
-                    <h3 class="text-gray-400 text-xl">How long does it take to create a website?</h3>
-                    <i onclick="myFunction(this)" class="ri-add-fill text-gray-400 text-2xl cursor-pointer"></i>
-                </div>
-                <div class="answer mt-8 text-gray-600 hidden">
-                    <p>Before a web design company can start creating a website, the client should provide all necessary content, such as text, photos, and videos. The client should also provide all necessary information about the brand and target audience so that the web design company can create a website that meets the client’s specific needs.</p>
-                </div>
-            </div>
-            <div class="question flex flex-col p-8 bg-gray-300/5 rounded-lg">
-                <div class="quest flex justify-between">
-                    <h3 class="text-gray-400 text-xl">How long does it take to create a website?</h3>
-                    <i onclick="myFunction(this)" class="ri-add-fill text-gray-400 text-2xl cursor-pointer"></i>
-                </div>
-                <div class="answer mt-8 text-gray-600 hidden">
-                    <p>Before a web design company can start creating a website, the client should provide all necessary content, such as text, photos, and videos. The client should also provide all necessary information about the brand and target audience so that the web design company can create a website that meets the client’s specific needs.</p>
-                </div>
-            </div>
-            <div class="question flex flex-col p-8 bg-gray-300/5 rounded-lg">
-                <div class="quest flex justify-between">
-                    <h3 class="text-gray-400 text-xl">How long does it take to create a website?</h3>
-                    <i onclick="myFunction(this)" class="ri-add-fill text-gray-400 text-2xl cursor-pointer"></i>
-                </div>
-                <div class="answer mt-8 text-gray-600 hidden">
-                    <p>Before a web design company can start creating a website, the client should provide all necessary content, such as text, photos, and videos. The client should also provide all necessary information about the brand and target audience so that the web design company can create a website that meets the client’s specific needs.</p>
-                </div>
-            </div>
+      <span
+        class="relative text-lime-500 bg-gray-300/5 pt-1 pb-1 pr-3 pl-3 rounded-full border border-gray-300/5 flex items-center justify-self-center uppercase mt-20"
+        >FAQs</span
+      >
+      <p class="text-center text-gray-300 text-3xl pt-6 pr-20 pl-20 pb-6">
+        We've got the answers
+      </p>
+      <div class="faqs grid grid-cols-2 gap-4 p-16 place-self-center">
+        <div class="question flex flex-col p-8 bg-gray-300/5 rounded-lg">
+          <div class="quest flex justify-between gap-[100px]">
+            <h3 class="text-gray-400 text-xl">
+              How long does it take to create a website?
+            </h3>
+            <i
+              id="icon"
+              onclick="myFunction(this)"
+              class="ri-add-fill text-gray-400 text-2xl cursor-pointer"
+            ></i>
+          </div>
+          <div id="answer" class="answer mt-8 text-gray-600">
+            <p>
+              Before a web design company can start creating a website, the
+              client should provide all necessary content, such as text, photos,
+              and videos. The client should also provide all necessary
+              information about the brand and target audience so that the web
+              design company can create a website that meets the client’s
+              specific needs.
+            </p>
+          </div>
         </div>
+        <div class="question flex flex-col p-8 bg-gray-300/5 rounded-lg">
+          <div class="quest flex justify-between">
+            <h3 class="text-gray-400 text-xl">
+              How long does it take to create a website?
+            </h3>
+            <i
+              onclick="myFunction(this)"
+              class="ri-add-fill text-gray-400 text-2xl cursor-pointer"
+            ></i>
+          </div>
+          <div class="answer mt-8 text-gray-600 hidden">
+            <p>
+              Before a web design company can start creating a website, the
+              client should provide all necessary content, such as text, photos,
+              and videos. The client should also provide all necessary
+              information about the brand and target audience so that the web
+              design company can create a website that meets the client’s
+              specific needs.
+            </p>
+          </div>
+        </div>
+        <div class="question flex flex-col p-8 bg-gray-300/5 rounded-lg">
+          <div class="quest flex justify-between">
+            <h3 class="text-gray-400 text-xl">
+              How long does it take to create a website?
+            </h3>
+            <i
+              onclick="myFunction(this)"
+              class="ri-add-fill text-gray-400 text-2xl cursor-pointer"
+            ></i>
+          </div>
+          <div class="answer mt-8 text-gray-600 hidden">
+            <p>
+              Before a web design company can start creating a website, the
+              client should provide all necessary content, such as text, photos,
+              and videos. The client should also provide all necessary
+              information about the brand and target audience so that the web
+              design company can create a website that meets the client’s
+              specific needs.
+            </p>
+          </div>
+        </div>
+        <div class="question flex flex-col p-8 bg-gray-300/5 rounded-lg">
+          <div class="quest flex justify-between">
+            <h3 class="text-gray-400 text-xl">
+              How long does it take to create a website?
+            </h3>
+            <i
+              onclick="myFunction(this)"
+              class="ri-add-fill text-gray-400 text-2xl cursor-pointer"
+            ></i>
+          </div>
+          <div class="answer mt-8 text-gray-600 hidden">
+            <p>
+              Before a web design company can start creating a website, the
+              client should provide all necessary content, such as text, photos,
+              and videos. The client should also provide all necessary
+              information about the brand and target audience so that the web
+              design company can create a website that meets the client’s
+              specific needs.
+            </p>
+          </div>
+        </div>
+        <div class="question flex flex-col p-8 bg-gray-300/5 rounded-lg">
+          <div class="quest flex justify-between">
+            <h3 class="text-gray-400 text-xl">
+              How long does it take to create a website?
+            </h3>
+            <i
+              onclick="myFunction(this)"
+              class="ri-add-fill text-gray-400 text-2xl cursor-pointer"
+            ></i>
+          </div>
+          <div class="answer mt-8 text-gray-600 hidden">
+            <p>
+              Before a web design company can start creating a website, the
+              client should provide all necessary content, such as text, photos,
+              and videos. The client should also provide all necessary
+              information about the brand and target audience so that the web
+              design company can create a website that meets the client’s
+              specific needs.
+            </p>
+          </div>
+        </div>
+        <div class="question flex flex-col p-8 bg-gray-300/5 rounded-lg">
+          <div class="quest flex justify-between">
+            <h3 class="text-gray-400 text-xl">
+              How long does it take to create a website?
+            </h3>
+            <i
+              onclick="myFunction(this)"
+              class="ri-add-fill text-gray-400 text-2xl cursor-pointer"
+            ></i>
+          </div>
+          <div class="answer mt-8 text-gray-600 hidden">
+            <p>
+              Before a web design company can start creating a website, the
+              client should provide all necessary content, such as text, photos,
+              and videos. The client should also provide all necessary
+              information about the brand and target audience so that the web
+              design company can create a website that meets the client’s
+              specific needs.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <script>
-        let answer = document.getElementById("answer")
-        function myFunction(x){
-           x.classList.toggle("ri-subtract-fill");
-        }
-        
+      function myFunction(x) {
+        x.classList.toggle("ri-subtract-fill");
+      }
     </script>
-</body>
+  </body>
 </html>
